@@ -1,0 +1,107 @@
+/* Import google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* commmon to all  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /* background-color:royalblue; */
+    background-color: #F3F1FF;
+}
+
+/* ----------------------------
+                Header section
+---------------------------------------  */
+.navigation-container{
+    background-color: #562efe;
+    height: 94px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo-name{
+   
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    width: 40px;
+    height: 51px;
+    margin-top: 26px;
+    margin-bottom: 17px;
+
+}
+.logo-title{
+    font-weight: 500;
+    color: white;
+    margin-left: 20px;
+    margin-top: 33px;
+    margin-bottom:25px;
+    font-size: 24px;
+}
+.anchor{
+    display: flex;
+    align-items: center;
+}
+a{
+    text-transform:capitalize;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 0 5px;
+    color: white;
+   
+    
+}
+.profile-pic{
+   margin-left: 20px;
+   margin-top: 9px;
+   width: 51px;
+   height: 51px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+   
+}
+
+/* -------------
+        top player part 
+ ---------------------- */
+ main{
+     display: flex;
+     justify-content: center;
+ }
+ .container{
+     width: 870px;
+     background-color: white;
+     padding:30px;
+     
+ }
+ .section-title{
+     color: #562efe;
+     font-size: 24px;
+     /* margin-left: 30px; */
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(3,1fr );
+        grid-row-gap: 30px;
+        /* margin-left: 30px; */
+
+ }
+ .player img{
+     width: 56px;
+     height: 56px;
+ }
+ .player{
+     display: flex;
+     align-items: center;
+ }
+ .player-name{
+     margin-left: 16px;
+ }
